@@ -37,7 +37,13 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+.idea/**/C++project.iml
 .idea/**/workspace.xml
+.idea/**/misc.xml
+.idea/**/vcs.xml
+.idea/**/modules.xml
+.idea/**/.name
+.idea/codeStyles/Project.xml
 .idea/**/tasks.xml
 .idea/**/dictionaries
 .idea/**/shelf
