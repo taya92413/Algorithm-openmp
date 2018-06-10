@@ -68,7 +68,8 @@ int main() {
         t1 = clock();
         for (int i = 0; i < t; i++) {
             x = rand() % ndata[j];
-            recursivebinarySearch(data, 0, ndata[j] - 1, data[x]);
+            //recursivebinarySearch(data, 0, ndata[j] - 1, data[x]);
+            iterativebinarySearch(data, 0, ndata[j] - 1, data[x]);
 //                if (result == -1) {
 //                    cout << "Element is not present in array" << endl;
 //                } else {
